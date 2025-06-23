@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Watering Whisperer for Plants</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/plant-logo.png" type="image/x-icon">
+</head>
+<body>
+
+  <div class="total">
+  <header>
+    <img src="images/plant-logo.png" alt="Logo" class="logo">
+    <h1>The Watering Whisperer for Plants</h1>
+  </header>
+  <main>
+    <!-- Form to Add Plants -->
+    <section id="add-plant">
+      <h2>Add a New Plant</h2>
+      <form id="plant-form">
+        <label for="plant-name">Plant Name:</label>
+        <input type="text" id="plant-name" placeholder="Enter Plant Name" required />
+
+        <label for="plant-species">Species:</label>
+        <input type="text" id="plant-species" placeholder="Enter Species" />
+
+        <label for="last-watered">Last Watered:</label>
+        <input type="date" id="last-watered" required />
+
+        <label for="water-frequency">Watering Frequency (In Days):</label>
+        <input type="number" id="water-frequency" placeholder="Enter Watering Frequency" required />
+
+        <label for="plant-photo">Upload a Plant Photo:</label>
+        <input type="file" id="plant-photo" accept="image/*" />
+
+        <label>Plant Type:</label>
+        <div class="radiodiv">
+        <input type="radio" id="indoor" name="plant-type" value="Indoor" />
+        <label for="indoor">Indoor</label>
+        <input type="radio" id="outdoor" name="plant-type" value="Outdoor" />
+        <label for="outdoor">Outdoor</label>
+        </div>
+
+        <label for="watering-time">Preferred Watering Time:</label>
+        <input type="time" id="watering-time" />
+
+        <label for="plant-size">Plant Size:</label>
+        <select id="plant-size">
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+        </select>
+
+        <button type="submit">Add Plant</button>
+      </form>
+    </section>
+
+    <!-- Plant List -->
+    <section id="plant-list">
+      <h2>Your Plants</h2>
+      <div id="plants-container"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 The Watering Whisperer for Plants. All rights reserved.</p>
+    <p>Nurturing your plants, one reminder at a time.</p>
+  </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

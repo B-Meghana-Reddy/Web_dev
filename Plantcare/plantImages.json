@@ -1,0 +1,13 @@
+{
+  "aloe vera": "images/aloe-vera.jpg",
+  "cactus": "images/cactus.jpg",
+  "rose": "images/rose.jpg",
+  "money plant":"images/money-plant.jpg",
+  "snake plant":"images/snake-plant.jpg",
+  "bamboo":"images/bamboo.jpg",
+  "hibiscus":"images/hibiscus.jpg",
+  "jasmine":"images/jasmine.jpg",
+  "succulent":"images/succulent.jpg",
+  "tulsi":"images/tulsi.jpg",
+  "default": "images/default-plant.jpg"
+}

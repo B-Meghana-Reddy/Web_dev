@@ -1,0 +1,75 @@
+body {
+    background-image: url('images/watering-background.jpg');
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    padding-bottom: 30px;
+  }
+  .signup-container {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px; 
+  }
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+  }
+  
+  #signup-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #signup-section label {
+    font-size: 1rem;
+    margin-bottom: 10px; /* Adds a gap between the label and the input box */
+}
+#signup-section input {
+  padding: 10px;
+  margin-bottom: 20px; /* Optional: Adds space below the input box */
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

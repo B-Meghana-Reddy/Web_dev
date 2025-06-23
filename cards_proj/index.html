@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100vw;
+            height:100vh;
+            background: rgb(38,73,220);
+            background: linear-gradient(90deg, rgba(38,73,220,1) 0%, rgba(181,202,218,1) 0%, rgba(178,194,218,1) 0%, rgba(206,179,213,1) 100%, rgba(177,189,218,1) 100%, rgba(148,187,233,1) 100%);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .card{
+            width:350px;
+            height:500px;
+            background-color: white;
+            border-radius:20px;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            gap:30px;
+            padding:20px;
+        }
+        .card img{
+            height: 57%;
+            border-radius:10px;
+        }
+        .card h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .card p{
+            font-size:1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="qrcode.png"/>
+            <h2>Improve your frontend skills by developing some projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cumque hic natus quasi! Expedita mollitia magnam laborum vel eveniet option</p>
+        </div>    
+    </div>
+</body>
+</html>
